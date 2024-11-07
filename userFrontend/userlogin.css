@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: rgb(255, 170, 0);
+    top: 10%;
+    margin-bottom: 20px;
+    height:75px;
+    border-bottom: 2px;
+}
+
+.eBNav{
+    position: absolute;
+    top: 2.5%;
+    left: 43%;
+}
+.formBody{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border: 2px solid;
+    height: 150px;
+    width: 300px;
+}
+
+.userForm{
+    position: absolute;
+    top: 55px;
+    left: 38px;
+}

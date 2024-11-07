@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: rgb(255, 170, 0);
+    top: 10%;
+    margin-bottom: 20px;
+    height:75px;
+    border-bottom: 2px;
+}
+
+.eBNav{
+    position: absolute;
+    top: 2.5%;
+    left: 43%;
+}
+
+.homeNav{
+    position: absolute;
+    top: .5%;
+    left: 85%;
+}
+
+.formBodyExpense{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border: 2px solid;
+    height: 150px;
+    width: 300px;
+}
+.expenseForm{
+    position: absolute;
+    margin-top: 7%;
+    left: 10%;
+}
+.expenseInput {
+margin-bottom: 5%;
+}
+
+.expenseTableHeader{
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    left: 7%;
+    width: 85%;
+}
+
+table{
+    width: 100%;
+}
+
+table,tr,th{
+    border:1px solid black;
+}
+
+.tDate{
+    position: absolute;
+    top:2%;
+    left:2.5%;
+}
+
+.expenseDate{
+    position: absolute;
+    left: 2.5%;
+}
+
+.tExpense{
+    position: absolute;
+    left: 85%
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Budgeting</title>
+    <link href="./expensesHome.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="eBNav">
+                <h1>Expense Notes</h1>
+            </div>
+            <div class="homeNav" id="nameofuser">
+                <h3>Welcome, <span id="homeusername"></span>!</h3>
+                <div>
+                    <p>User Id: <span id="user"></span></p>
+                </div>
+            </div>
+            <div class="tDate" id="tDate">
+                <h3>Date: <span id="today"></span></h3>
+            </div>
+        </nav>
+    </header>
+
+    
+    <div class="expenseDate">
+        <label>Today's Date:</label>
+        <input type="text" name="expenseDate" id="expenseDate" required>
+    </div>
+    <div class="tExpense">
+        <p>Total Spent Today: <span id="totalExpense"></span></p>
+    </div>
+
+
+    <div class="formBodyExpense">
+        <form class="expenseForm">
+            <div class="expenseInput">
+                <label>Description:</label>
+                <input type="text" name="description" id="description" required>
+            </div>
+            <div class="expenseInput">
+                <label>Price:</label>
+                <input type="text" name="price" id="price" required>
+            </div>
+            <div class="expenseInput">
+                <button type="button" id="submitExpense">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <table class="expenseTableHeader">
+            <th>Id:</th>
+            <th>Date:</th>
+            <th>Description:</th>
+            <th>Price:</th>
+            
+
+            <tbody id="tableData"></tbody>
+        </table>
+
+    </div>
+</body>
+<script src="./userlogin.js"></script>
+<script src="./expensesHome.js"></script>
+</html>
