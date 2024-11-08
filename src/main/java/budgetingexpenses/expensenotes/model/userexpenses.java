@@ -1,4 +1,4 @@
-package budgetingexpenses.expensebudgeting.model;
+package budgetingexpenses.expensenotes.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,10 +1,10 @@
-package budgetingexpenses.expensebudgeting.services;
+package budgetingexpenses.expensenotes.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import budgetingexpenses.expensebudgeting.model.usersignup;
-import budgetingexpenses.expensebudgeting.repository.userrepository;
+import budgetingexpenses.expensenotes.model.usersignup;
+import budgetingexpenses.expensenotes.repository.userrepository;
 
 @Service
 public class userserviceimpl implements userservice{

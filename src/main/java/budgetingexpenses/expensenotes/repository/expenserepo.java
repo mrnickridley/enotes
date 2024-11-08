@@ -1,12 +1,12 @@
-package budgetingexpenses.expensebudgeting.repository;
+package budgetingexpenses.expensenotes.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import budgetingexpenses.expensebudgeting.model.userexpenses;
-import budgetingexpenses.expensebudgeting.model.usersignup;
+import budgetingexpenses.expensenotes.model.userexpenses;
+import budgetingexpenses.expensenotes.model.usersignup;
 
 
 

@@ -1,4 +1,4 @@
-package budgetingexpenses.expensebudgeting.services;
+package budgetingexpenses.expensenotes.services;
 
 import org.springframework.stereotype.Service;
 

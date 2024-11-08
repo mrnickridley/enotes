@@ -1,6 +1,6 @@
-package budgetingexpenses.expensebudgeting.services;
+package budgetingexpenses.expensenotes.services;
 
-import budgetingexpenses.expensebudgeting.model.usersignup;
+import budgetingexpenses.expensenotes.model.usersignup;
 
 public interface userservice {
     usersignup getUserByUsername(String username);

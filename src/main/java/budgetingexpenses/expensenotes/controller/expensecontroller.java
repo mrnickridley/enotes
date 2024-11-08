@@ -1,4 +1,4 @@
-package budgetingexpenses.expensebudgeting.controller;
+package budgetingexpenses.expensenotes.controller;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import budgetingexpenses.expensebudgeting.model.userexpenses;
-import budgetingexpenses.expensebudgeting.model.usersignup;
-import budgetingexpenses.expensebudgeting.repository.expenserepo;
-import budgetingexpenses.expensebudgeting.services.expenseservice;
+import budgetingexpenses.expensenotes.model.userexpenses;
+import budgetingexpenses.expensenotes.model.usersignup;
+import budgetingexpenses.expensenotes.repository.expenserepo;
+import budgetingexpenses.expensenotes.services.expenseservice;
 
 @RestController
 @RequestMapping(path="/expenses")
