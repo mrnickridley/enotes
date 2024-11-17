@@ -5,7 +5,6 @@ const submitB = document.getElementById("submitExpense");
 document.getElementById("homeusername").textContent = homeuser;
 document.getElementById("user").textContent = userid;
 
-let previousMostRecentDate = null;
 function getUserExpenses(){
 
 fetch('http://localhost:8097/expenses/' + userid)
@@ -14,6 +13,7 @@ fetch('http://localhost:8097/expenses/' + userid)
     return response.json(); // or response.text() if the response is not JSON
 })
 .then(expenses => {
+
     // Sort expenses by date in ascending order
     //".sort() method lists numerical data, or numbers, in numerical order, increasing or decreasing"
     /** "new Date() method can read integer date data and transform it into a date format." */
@@ -21,6 +21,7 @@ fetch('http://localhost:8097/expenses/' + userid)
    // expenses.sort((a, b) => new Date(a.expenseDate) - new Date(b.expenseDate));
 
     // Get the most recent expense date (last item in the sorted list)
+
     let mostRecentDate = null;
     if (expenses.length > 0) {
         mostRecentDate = expenses[expenses.length - 1].expenseDate;
